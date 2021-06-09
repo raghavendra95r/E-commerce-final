@@ -5,7 +5,7 @@ import Cart from '../Cart/Cart';
 export default function Navbar() {
     return (
         
-        <header className="p-3 bg-dark text-white">
+        <header className="p-3 bg-dark  sticky-top text-white">
         <div className="container-fluid ">
           <div className="d-flex flex-wrap align-items-center center  ">
             <a href="/" className="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
@@ -19,7 +19,7 @@ export default function Navbar() {
        
     
  
-           <div className="text-end">
+           <div className="text-end ">
               <button type="button" className="btn btn-outline-light me-2">Login</button>
               <button type="button" className="btn btn-warning">Sign-up</button>
             </div>
